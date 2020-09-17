@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+      <test name="Joe"/>
       <logo />
       <h1 class="title">
         nuxtjs
@@ -21,7 +22,7 @@
           target="_blank"
           class="button--grey"
         >
-          GitHub
+          PLEASS
         </a>
       </div>
     </div>
@@ -29,11 +30,13 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo.vue';
+import Test from '~/components/Test.vue';
 
 export default {
   components: {
-    Logo
+    Logo,
+    Test
   }
 }
 </script>
